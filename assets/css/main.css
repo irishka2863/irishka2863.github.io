@@ -544,7 +544,7 @@ input[type="button"] {
     .introduction__content-el {
       display: block; }
       .introduction__content-el--name {
-        transform: translateX(-25px);
+        transform: translateX(-30px);
         opacity: 0; }
       .introduction__content-el--description {
         transform: matrix(1.0110731102, 0, 0, 1.0110731102, 0, 0);
