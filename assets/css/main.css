@@ -705,11 +705,13 @@ input[type="button"] {
   overflow: hidden; }
   .web-design__wrapper {
     display: flex;
-    justify-content: flex-end; }
+    justify-content: flex-end;
+    left:30%;
+    z-index: 2;}
   .web-design__visual {
     position: absolute;
     top: 50%;
-    right: 65%;
+    right: 80%;
     transform: translateY(-45%);
     width: 500px;
     height: 581px;
