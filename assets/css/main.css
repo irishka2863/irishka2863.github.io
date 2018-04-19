@@ -709,13 +709,13 @@ input[type="button"] {
   .web-design__visual {
     position: absolute;
     top: 50%;
-    right: 52%;
+    right: 65%;
     transform: translateY(-45%);
-    width: 828px;
+    width: 500px;
     height: 581px;
     margin: 0;
     background-image: url("../img/selfIdentityPack.png");
-    background-position: center;
+    background-position: left;
     background-size: 100%;
     background-repeat: no-repeat; }
   @media (max-width: 991px) {
