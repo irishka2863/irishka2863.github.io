@@ -706,7 +706,7 @@ input[type="button"] {
   .web-design__wrapper {
     display: flex;
     justify-content: flex-end;
-      width: 80%;
+      width: 60%;
     z-index: 2;}
  .web-design__content h2 {
       font-size: 48px;}
