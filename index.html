@@ -22,10 +22,10 @@
 	<!-- SECTION: Navigation -->
 	<div id="top" class="navigation">
 		<div class="navigation__wrapper wrapper--large">
-			<a class="navigation__logo logo" href="#0"><img class="logo" src="assets/img/BestLogo.png" style="width: 55px"alt="Irina Mityugova Logo"></a>
+			<a class="navigation__logo logo" href=#><img class="logo" src="assets/img/BestLogo.png" style="width: 55px"alt="Irina Mityugova Logo"></a>
 			<nav class="navigation__container">
 				<ul class="navigation__list">
-					<li><a href="#0">Home</a></li>
+					<li><a href="index.html">Home</a></li>
 					<li><a href="#work">Portfolio</a></li>
 					<!-- <li><a href="#blog">Blog</a></li> Don't need this page yet -->
 					<li><a href="#contact">Contact</a></li>
@@ -68,30 +68,43 @@
 		</section>
 		<!-- END SECTION: About -->
 		<!-- SECTION: Self Identity Package -->
-		<section class="web-design">
-			<div class="web-design__wrapper wrapper--small">
-				<div class="web-design__content blurb">
+		<section class="idp-design">
+			<div class="idp-design__wrapper wrapper--small">
+				<div class="idp-design__content blurb">
 					<h2 class="blurb__heading">Self Identity Package <br>Design</h2>
 					<p class="blurb__copy blurb__copy--tight">First self-identity design I made with advisory help of amazing friends in Portfolio class.</p>
 				    <a class="transform-link" href="pages/case-study_selfIdentityPackage/case-study-self-identity-package.html">Check it out</a>
                 </div>
 			</div>
-			<figure class="web-design__visual"></figure>
+			<figure class="idp-design__visual"></figure>
 		</section>
 		<!-- END SECTION: Self Identity Package -->
         <!-- SECTION: ITI Logo -->
-		<section class="app-design">
-			<div class="app-design__wrapper wrapper--large">
-				<div class="app-design__content blurb">
+		<section class="iti-design">
+			<div class="iti-design__wrapper wrapper--large">
+				<div class="iti-design__content blurb">
 					<h2 class="blurb__heading">ITI Logo <br>Design</h2>
 					<p class="blurb__copy blurb__copy--tight">Logo design for Industrial Technology Inc., an awesome machine parts retail company from Sunnyvale.</p>
 					<a class="transform-link" href="pages/case-study_logoITI/case-study-logo-iti.html">Check it out</a>
 				</div>
 			</div>
-			<figure class="app-design__visual"></figure>
+			<figure class="iti-design__visual"></figure>
 		</section>
 		<!-- END SECTION: ITI Logo -->
 		
+                <!-- SECTION: Quote Illustration -->
+		<section class="quote-design">
+			<div class="quote-design__wrapper wrapper--large">
+				<div class="quote-design__content blurb">
+					<h2 class="blurb__heading">Quote Illustration <br>Design</h2>
+					<p class="blurb__copy blurb__copy--tight">Typographical design with use of immersive techniques to illustrate a union of message and context.</p>
+					<a class="transform-link" href="pages/case-study_quoteIllustration/case-study-quote-illustration.html">Check it out</a>
+				</div>
+			</div>
+			<figure class="quote-design__visual"></figure>
+		</section>
+		<!-- END SECTION: Quote Illustration -->
+        
 		<!-- SECTION: Work -->
 		<section id="work" class="work">
 			<h2 class="work__heading title">Latest Projects</h2>
@@ -193,9 +206,9 @@
 					<!-- <img src="assets/img/contact-visual.png" alt="James Martin's location">-->  
 				</div>
 				<!-- Simple form setup: formspree.io -->
-				<form class="contact__form">
+				<form class="contact__form" action="https://formspree.io/info@irinamityugova.me">
 					<input class="contact__form-el contact__form-el--name" type="text" placeholder="Your Name" spellcheck="false">
-					<input class="contact__form-el contact__form-el--email" type="email" placeholder="Your Email" spellcheck="false">
+					<input required class="contact__form-el contact__form-el--email" type="email" placeholder="Your Email" spellcheck="false">
 					<textarea class="contact__form-el contact__form-el--message" placeholder="Your Message"></textarea>
 					<input class="contact__form-el contact__form-el--submit" type="submit" value="Send">
 				</form>
